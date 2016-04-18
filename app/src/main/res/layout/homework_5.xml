@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Fade In"
+        android:id="@+id/fade_inBtn"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/cupcakeImg"
+        android:layout_toStartOf="@+id/cupcakeImg"
+        android:layout_marginTop="42dp" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Blink"
+        android:id="@+id/blinkBtn"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_below="@+id/fade_inBtn"
+        android:layout_toLeftOf="@+id/cupcakeImg"
+        android:layout_toStartOf="@+id/cupcakeImg" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rotate"
+        android:id="@+id/rotateBtn"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_below="@+id/bounceBtn"
+        android:layout_alignLeft="@+id/bounceBtn"
+        android:layout_alignStart="@+id/bounceBtn" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bounce"
+        android:id="@+id/bounceBtn"
+        android:layout_gravity="center"
+        android:padding="5dp"
+        android:layout_above="@+id/slideDwnBtn"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Slide"
+        android:id="@+id/slideDwnBtn"
+        android:layout_gravity="center"
+        android:layout_below="@+id/moveBtn"
+        android:layout_alignRight="@+id/moveBtn"
+        android:layout_alignEnd="@+id/moveBtn">
+    </Button>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Move"
+        android:id="@+id/moveBtn"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_alignTop="@+id/fade_inBtn"
+        android:layout_toRightOf="@+id/cupcakeImg"
+        android:layout_toEndOf="@+id/cupcakeImg" />
+
+    <ImageView
+        android:paddingTop="15dp"
+        android:id="@+id/cupcakeImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cupcake"
+        android:layout_gravity="center"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

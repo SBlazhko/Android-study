@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="#faf7eb">
+        <TextView
+            android:text="REZULT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/tvTop"
+            android:layout_marginTop="30dp">
+        </TextView>
+        <EditText
+            android:id="@+id/editNumbTop"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+    <Button
+            android:text="Factorial"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:id="@+id/btnTop"
+            android:layout_width="wrap_content"
+            >
+        </Button>
+    <Button
+        android:text="Fibonachi"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnBottom"
+        android:layout_width="wrap_content"
+        android:layout_gravity="center_horizontal">
+    </Button>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#faf7eb"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="text 1"
+        android:id="@+id/text_1"
+        android:paddingTop="15dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:paddingLeft="1dp"/>
+    <TextView
+        android:id="@+id/text_2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Press button to change Array"
+        android:paddingTop="10dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:paddingLeft="1dp"/>
+    <LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#faf7eb">>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="70dp"/>
+
+        <Button
+        android:id="@+id/Bt1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="#CFD8DC"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+        android:id="@+id/Bt2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2"
+            android:layout_weight="1"
+            android:layout_gravity="center"
+            android:background="#CFD8DC"/>
+    </LinearLayout>
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:layout_weight="0.10"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/Bt3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3"
+            android:layout_weight="1"
+            android:background="#CFD8DC"
+            android:layout_marginRight="5dp"/>
+
+        <Button
+        android:id="@+id/Bt4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="4"
+            android:layout_weight="1"
+            android:background="#CFD8DC"/>
+
+    </LinearLayout>
+</LinearLayout>

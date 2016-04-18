@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#faf7eb">
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        android:orientation="vertical"
+        android:baselineAligned="false">
+        <TextView
+            android:id="@+id/choseHomework"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="50dp"
+            android:text="Chose Homework !!!"
+            android:textColor="#212121"
+            android:textSize="@dimen/abc_text_size_large_material">
+        </TextView>
+        <Button
+            android:id="@+id/homework_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="HM 1"
+            android:textAllCaps="false">
+        </Button>
+        <Button
+            android:id="@+id/homework_2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:text="HM 2"
+            android:textAllCaps="false">
+        </Button>
+        <Button
+            android:id="@+id/homework_3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="HM 3"
+            android:textAllCaps="false"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="HM 4"
+            android:id="@+id/homework_5"
+            android:textAllCaps="false"/>
+    </LinearLayout>
+</LinearLayout>
